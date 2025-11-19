@@ -21,7 +21,7 @@ function getArrayParams(...arr) {
 }
 
 function summElementsWorker(...arr) {
-  if (!arr || arr.length === 0) {
+  if (arr.length === 0) {
     return 0;
   }
   
@@ -33,7 +33,7 @@ function summElementsWorker(...arr) {
 }
 
 function differenceMaxMinWorker(...arr) {
-  if (!arr || arr.length === 0) {
+  if (arr.length === 0) {
     return 0;
   }
   
@@ -53,7 +53,7 @@ function differenceMaxMinWorker(...arr) {
 }
 
 function differenceEvenOddWorker(...arr) {
-  if (!arr || arr.length === 0) {
+  if (arr.length === 0) {
     return 0;
   }
   
@@ -72,7 +72,7 @@ function differenceEvenOddWorker(...arr) {
 }
 
 function averageEvenElementsWorker(...arr) {
-  if (!arr || arr.length === 0) {
+  if (arr.length === 0) {
     return 0;
   }
   
@@ -94,7 +94,7 @@ function averageEvenElementsWorker(...arr) {
 }
 
 function makeWork(arrOfArr, func) {
-	if (!arrOfArr || arrOfArr.length === 0) {
+	if (arrOfArr.length === 0) {
 		return 0;
 	}
 
