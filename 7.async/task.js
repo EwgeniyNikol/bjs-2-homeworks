@@ -69,21 +69,21 @@ class AlarmClock {
 }
 
 
-const clock = new AlarmClock();
+// const clock = new AlarmClock();
 
-clock.addClock('07:00', () => console.log('Пора вставать!'));
-clock.addClock('07:01', () => console.log('Вставай уже!'));
+// clock.addClock('07:00', () => console.log('Пора вставать!'));
+// clock.addClock('07:01', () => console.log('Вставай уже!'));
 
-clock.addClock('07:00', () => console.log('Дублирующий звонок'));
+// clock.addClock('07:00', () => console.log('Дублирующий звонок'));
 
-clock.start();
+// clock.start();
 
-setTimeout(() => {
-	clock.stop();
-}, 10000);
-
-
-clock.resetAllCalls();
+// setTimeout(() => {
+// 	clock.stop();
+// }, 10000);
 
 
-clock.clearAlarms();
+// clock.resetAllCalls();
+
+
+// clock.clearAlarms();
